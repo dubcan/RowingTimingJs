@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+  position: relative;
+}
+
+.heartRate {
+  font-size: 72pt;
+  margin-left: 50px;
+}
+
+.child {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 72pt;
+
+  margin: -70px 0 0 -170px;
+}
